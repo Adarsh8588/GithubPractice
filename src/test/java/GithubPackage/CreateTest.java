@@ -8,4 +8,12 @@ public class CreateTest {
 	{
       System.out.println("Created");
 }
+	public void modify(){
+		
+	       System.out.println("----modification---");
+	}
+	public void  modifydone(){
+		
+	       System.out.println("----modification done---");
+	}
 }
