@@ -3,12 +3,14 @@ package GithubPackage;
 import org.testng.annotations.Test;
 
 public class CreateTest {
-	@Test
+	
+	
+	@Test(groups="smoke")
 	public void Create() 
 	{
       System.out.println("Created");
 }
-	@Test
+	@Test(groups="regression")
 	public void modify(){
 		
 	       System.out.println("----modification---");
